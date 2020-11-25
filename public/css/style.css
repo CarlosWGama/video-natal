@@ -1,0 +1,40 @@
+
+body {
+    background-color: #7F9C96;
+}
+
+#main {
+    background-color: #4D7C8A;
+    margin-top: 50px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#main h1 { color: white;}
+#main label { color: white;}
+.input-label { color: grey !important;}
+
+#enviando { 
+    display: none;
+}
+
+#enviando-conteudo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#enviando-conteudo p, #enviando-falha p, #enviando-sucesso p {
+    color: white;
+    font-size: 20px;
+}
+
+
+#enviando-falha { display: none; }
+#enviando-sucesso { display: none; }
+
+#btn-baixar {
+    color: white;
+    font-weight: bolder;
+    font-size: 30px;
+}
